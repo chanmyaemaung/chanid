@@ -69,7 +69,7 @@ You can also include CLID directly in your HTML file using a CDN:
 ```html
 <!-- Latest version from jsDelivr (ECMAScript module) -->
 <script type="module">
-  import CHANID from 'https://cdn.jsdelivr.net/npm/chanid@1.0.0/build/chanid.mjs';
+  import CHANID from 'https://cdn.jsdelivr.net/npm/chanid@1.1.0/build/chanid.mjs';
 
   const chanid = new CHANID();
   const uniqueID = chanid.generateID();
@@ -77,7 +77,7 @@ You can also include CLID directly in your HTML file using a CDN:
 </script>
 
 <!-- Latest version from jsDelivr (Minified script) -->
-<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.0.0/build/chanid.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.1.0/build/chanid.min.js"></script>
 ```
 
 ## Contributing

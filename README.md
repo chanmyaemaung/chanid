@@ -21,7 +21,7 @@ CHANID is a compact and robust utility for generating unique identifiers in Java
 
 ## Installation
 
-You can install CLID via npm:
+You can install CHANID via npm:
 
 ```bash
 npm install chanid
@@ -64,7 +64,7 @@ console.log(uniqueID);
 
 ## CDN Usage
 
-You can also include CLID directly in your HTML file using a CDN:
+You can also include CHANID directly in your HTML file using a CDN:
 
 ```html
 <!-- Latest version from jsDelivr (ECMAScript module) -->

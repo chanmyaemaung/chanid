@@ -17,7 +17,6 @@ CHANID is a minimalistic and efficient utility for generating unique identifiers
   - [Installation](#installation)
   - [Usage](#usage)
   - [Features](#features)
-  - [API](#api)
   - [Example](#example)
   - [CDN Usage](#cdn-usage)
   - [Contributing](#contributing)
@@ -47,12 +46,6 @@ console.log(uniqueID);
 
 Generates unique identifiers based on the UUID format.
 Works in both JavaScript and TypeScript environments.
-
-
-## API
-`generateID(): string`
-
-Generates and returns a unique identifier.
 
 ## Example
 

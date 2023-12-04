@@ -3,7 +3,7 @@
     "target": "es5",
     "lib": ["es5", "dom"],
     "module": "esnext",
-    "outDir": "./build",
+    "outDir": "./dist",
     "strict": true,
     "moduleResolution": "node",
     "types": ["node"],

@@ -66,7 +66,7 @@ You can also include CHANID directly in your HTML file using a CDN:
 ```html
 <!-- Latest version from jsDelivr (ECMAScript module) -->
 <script type="module">
-  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.5/dist/chanid.mjs';
+  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.5/dist/chanid.min.mjs';
 
   const uniqueID = chanid();
   console.log(uniqueID);

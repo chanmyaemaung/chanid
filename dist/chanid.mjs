@@ -1,3 +1,5 @@
+'use strict';
+
 function chanid() {
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
         var r = (Math.random() * 16) | 0;
@@ -6,4 +8,4 @@ function chanid() {
     });
 }
 
-export { chanid as default };
+module.exports = chanid;

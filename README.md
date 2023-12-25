@@ -66,14 +66,14 @@ You can also include CHANID directly in your HTML file using a CDN:
 ```html
 <!-- Latest version from jsDelivr (ECMAScript module) -->
 <script type="module">
-  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.2/dist/chanid.mjs';
+  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.3/dist/chanid.mjs';
 
   const uniqueID = chanid();
   console.log(uniqueID);
 </script>
 
 <!-- Latest version from jsDelivr (Minified script) -->
-<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.2.2/dist/chanid.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.2.3/dist/chanid.min.js"></script>
 ```
 
 ## Contributing

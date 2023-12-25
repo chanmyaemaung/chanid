@@ -21,3 +21,12 @@ node_modules/
 # Windows
 Thumbs.db
 desktop.ini
+
+# Include everything in the dist directory
+!dist/
+
+# Include the typings directory
+!typings/
+
+# Include the rollup config
+!rollup-config.js

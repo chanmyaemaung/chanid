@@ -1,11 +1,14 @@
 {
   "name": "chanid",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "CHANID (Chan Lay ID) - A compact and robust utility for generating unique identifiers in JavaScript and TypeScript.",
   "main": "dist/chanid.js",
   "module": "dist/chanid.mjs",
   "type": "module",
   "typings": "typings/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc && rollup -c"
   },

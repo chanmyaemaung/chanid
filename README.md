@@ -17,7 +17,6 @@ CHANID is a minimalistic and efficient utility for generating unique identifiers
   - [Installation](#installation)
   - [Usage](#usage)
   - [Features](#features)
-  - [Example](#example)
   - [CDN Usage](#cdn-usage)
   - [Contributing](#contributing)
   - [License](#license)
@@ -32,9 +31,22 @@ npm install chanid
 
 ## Usage
 
+CHANID is very easy to use. Simply import the module and call the function to generate a unique identifier.
+
 ```js
-// Import the CHANID function
+// Import the CHANID function from the module
 const chanid = require('chanid');
+
+// Generate a unique identifier
+const uniqueID = chanid();
+
+console.log(uniqueID);
+```
+
+Note: If you are using TypeScript, you can use the import statement instead:
+```js
+// Import the CHANID function from the module
+import chanid from 'chanid';
 
 // Generate a unique identifier
 const uniqueID = chanid();
@@ -47,14 +59,6 @@ console.log(uniqueID);
 Generates unique identifiers based on the UUID format.
 Works in both JavaScript and TypeScript environments.
 
-## Example
-
-```js
-const chanid = require('chanid');
-const uniqueID = chanid();
-console.log(uniqueID);
-```
-
 ## CDN Usage
 
 You can also include CHANID directly in your HTML file using a CDN:
@@ -62,14 +66,14 @@ You can also include CHANID directly in your HTML file using a CDN:
 ```html
 <!-- Latest version from jsDelivr (ECMAScript module) -->
 <script type="module">
-  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.0/dist/chanid.mjs';
+  import chanid from 'https://cdn.jsdelivr.net/npm/chanid@1.2.1/dist/chanid.mjs';
 
   const uniqueID = chanid();
   console.log(uniqueID);
 </script>
 
 <!-- Latest version from jsDelivr (Minified script) -->
-<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.2.0/dist/chanid.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/chanid@1.2.1/dist/chanid.min.js"></script>
 ```
 
 ## Contributing

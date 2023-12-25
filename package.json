@@ -1,9 +1,41 @@
 {
   "name": "chanid",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "CHANID (Chan Lay ID) - A compact and robust utility for generating unique identifiers in JavaScript and TypeScript.",
   "main": "dist/chanid.js",
-  "module": "dist/chanid.mjs",
+  "module": "dist/chanid.cjs.js",
+  "unpkg": "dist/chanid.min.js",
+  "browser": "dist/chanid.min.js",
+  "jsdelivr": "dist/chanid.min.js",
+  "exports": {
+    ".": {
+      "import": "./dist/chanid.esm.js",
+      "require": "./dist/chanid.cjs.js",
+      "default": "./dist/chanid.js"
+    },
+    "./dist/chanid.js": {
+      "import": "./dist/chanid.esm.js",
+      "require": "./dist/chanid.cjs.js",
+      "default": "./dist/chanid.js"
+    },
+    "./dist/chanid.cjs.js": {
+      "import": "./dist/chanid.esm.js",
+      "require": "./dist/chanid.cjs.js",
+      "default": "./dist/chanid.js"
+    },
+    "./dist/chanid.esm.js": {
+      "import": "./dist/chanid.esm.js",
+      "require": "./dist/chanid.cjs.js",
+      "default": "./dist/chanid.js"
+    },
+    "./dist/chanid.esm.mjs": {
+      "import": "./dist/chanid.esm.mjs",
+      "require": "./dist/chanid.cjs.js",
+      "default": "./dist/chanid.js"
+    }
+  },
+  "types": "typings/index.d.ts",
+  "sideEffects": false,
   "type": "module",
   "typings": "typings/index.d.ts",
   "files": [

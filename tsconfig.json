@@ -2,11 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "module": "esnext",
+    "module": "ESNext",
     "outDir": "./dist",
     "strict": true,
     "moduleResolution": "node",
-    "types": ["node", "./typings/index.d.ts"]
+    "types": ["./typings/index.d.ts"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

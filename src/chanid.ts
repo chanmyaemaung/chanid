@@ -1,3 +1,9 @@
+/// <reference path="../typings/index.d.ts" />
+
+/**
+ * Generates a unique identifier.
+ * @returns {string} The generated identifier.
+ */
 function chanid(): string {
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
     const r = (Math.random() * 16) | 0;
